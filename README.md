@@ -2,7 +2,7 @@
 
 ## Dataset
 - **Dataset**: PatchCamelyon (PCam) (1)(2)
-- **Source**: Publicly available research dataset
+- **Source**: https://github.com/basveeling/pcam 
 
 [1] B. S. Veeling, J. Linmans, J. Winkens, T. Cohen, M. Welling. "Rotation Equivariant CNNs for Digital Pathology". arXiv:1806.03962
 
