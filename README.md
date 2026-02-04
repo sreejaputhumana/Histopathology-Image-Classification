@@ -4,6 +4,8 @@
 - **Dataset**: PatchCamelyon (PCam) (1)(2)
 - **Source**: https://github.com/basveeling/pcam
 
+Analyzing pathology images is essential for accurate disease diagnosis and treatment but is often labor-intensive and inconsistent. Transformer-based models process large datasets and capture intricate relationships within medical images. This enhances precision in identifying patterns and anomalies, improving the speed and reliability of pathology image analysis. In this study, I explore the use of Vision Transformers and SWIN Transformers for pathology image analysis and compare their performance with traditional CNN models like EfficientNet.
+
   # Tranformer Models:
           i. Vision Transformer Model
                1. Architecture
