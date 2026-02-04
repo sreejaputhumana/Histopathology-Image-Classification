@@ -6,7 +6,7 @@
 
 Analyzing pathology images is essential for accurate disease diagnosis and treatment but is often labor-intensive and inconsistent. Transformer-based models process large datasets and capture intricate relationships within medical images. This enhances precision in identifying patterns and anomalies, improving the speed and reliability of pathology image analysis. In this study, I explore the use of Vision Transformers and SWIN Transformers for pathology image analysis and compare their performance with traditional CNN models like EfficientNet.
 
-  # Tranformer Models:
+  # Tranformer Models
           i. Vision Transformer Model
                1. Architecture
                2. Training
@@ -21,7 +21,7 @@ Analyzing pathology images is essential for accurate disease diagnosis and treat
                2. Training
                3. Evaluations
   
-# Results Comparison: 
+# Results Comparison
 Calibration of Tranformer Models using Temperature Scaling Calibration
 
 [1] B. S. Veeling, J. Linmans, J. Winkens, T. Cohen, M. Welling. "Rotation Equivariant CNNs for Digital Pathology". arXiv:1806.03962
