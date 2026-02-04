@@ -2,7 +2,25 @@
 
 ## Dataset
 - **Dataset**: PatchCamelyon (PCam) (1)(2)
-- **Source**: https://github.com/basveeling/pcam 
+- **Source**: https://github.com/basveeling/pcam
+
+  # Tranformer Models:
+          i. Vision Transformer Model
+               1. Architecture
+               2. Training
+               3. Evaluations
+               4. Gradient-weighted class activation mapping (Grad-CAM)
+         ii. SWIN Transformer Model
+               1.Architecture
+               2. Training
+               3. Evaluations
+         iii. CNN Model
+               1.Architecture
+               2. Training
+               3. Evaluations
+  
+# Results Comparison: 
+Calibration of Tranformer Models using Temperature Scaling Calibration
 
 [1] B. S. Veeling, J. Linmans, J. Winkens, T. Cohen, M. Welling. "Rotation Equivariant CNNs for Digital Pathology". arXiv:1806.03962
 
