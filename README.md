@@ -23,7 +23,7 @@ No test-set labels or external datasets were used for model selection or tuning.
 
 ### Models
 
-#### i. Vision Transformer (Illustrative)
+#### i. Vision Transformer 
 - Architecture
 - Training 
 - Evaluation (using model accuracy and confusion matrix)
