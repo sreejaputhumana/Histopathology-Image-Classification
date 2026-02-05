@@ -1,12 +1,15 @@
 ## Breast Cancer Histopathology-Image-Classification
 
-## Dataset
-- **Dataset**: PatchCamelyon (PCam) (1)(2)
-- **Source**: https://github.com/basveeling/pcam
+
+
 
 Analyzing pathology images is essential for accurate disease diagnosis and treatment but is often labor-intensive and inconsistent. Transformer-based models process large datasets and capture intricate relationships within medical images. This enhances precision in identifying patterns and anomalies, improving the speed and reliability of pathology image analysis. In this study, I explore the use of Vision Transformers and SWIN Transformers for pathology image analysis and compare their performance with traditional CNN models like EfficientNet.
 
-  # Tranformer Models
+  # Method
+       # Dataset
+-         **Dataset**: PatchCamelyon (PCam) (1)(2)
+-         **Source**: https://github.com/basveeling/pcam
+       Tranformer Models
           i. Vision Transformer Model
                1. Architecture
                2. Training
@@ -21,8 +24,17 @@ Analyzing pathology images is essential for accurate disease diagnosis and treat
                2. Training
                3. Evaluations
   
-# Results Comparison
+# Results 
 Calibration of Tranformer Models using Temperature Scaling Calibration
+
+## Limitations
+
+- The analysis is limited to patch-level classification and does not model spatial context across whole-slide images.
+- Labels are derived from competition annotations rather than clinical outcomes.
+- No external dataset was used for validation.
+
+These limitations motivate future work in representation learning and cross-dataset generalization.
+
 
 [1] B. S. Veeling, J. Linmans, J. Winkens, T. Cohen, M. Welling. "Rotation Equivariant CNNs for Digital Pathology". arXiv:1806.03962
 
