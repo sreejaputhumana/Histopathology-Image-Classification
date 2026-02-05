@@ -25,11 +25,19 @@ Analyzing pathology images is essential for accurate disease diagnosis and treat
   
 # Results
 
-The model was evaluated on a held-out validation set using accuracy and confusion matrices. The confusion matrix provides insight into class-wise prediction behavior and highlights potential sources of misclassification. 
+The models was evaluated on a held-out validation set using accuracy and confusion matrices. The confusion matrix provides insight into class-wise prediction behavior and highlights potential sources of misclassification. Among the evaluated architectures, the Swin Transformer achieved the strongest validation performance for patch-level benign vs malignant classification. Class-wise behavior was assessed using a confusion matrix to verify that performance was not driven by a single class.
 
-To improve interpretability, Grad-CAM visualizations were generated for selected validation images. These visualizations highlight image regions that contributed most strongly to the model’s predictions and provide a qualitative check on whether the model attends to localized tissue patterns rather than background artifacts.
+To improve interpretability, Grad-CAM visualizations were generated for selected
+validation images. The heatmaps highlight spatially localized regions within each
+tissue patch that contribute most strongly to the model’s predictions, with minimal
+activation in background areas.
 
-The Grad-CAM results are intended for model interpretability and sanity checking only. They do not establish biological or clinical significance. All results reflect patch-level classification performance and should be interpreted within this methodological scope.
+Activation is concentrated around regions with dense cellular texture and strong
+local color variation rather than being uniformly distributed across the image.
+This suggests that model decisions are driven by structured visual features within
+the patch rather than by global color or edge artifacts. Grad-CAM is used here as a
+qualitative sanity check on model behavior and does not imply identification of
+specific pathological structures or clinical relevance.
 
 
 # Limitations
