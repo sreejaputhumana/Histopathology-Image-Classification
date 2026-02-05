@@ -5,8 +5,7 @@
 - **Source**: https://github.com/basveeling/pcam
 
 # Introduction 
-Analyzing pathology images is essential for accurate disease diagnosis and treatment but is often labor-intensive and inconsistent. Transformer-based models process large datasets and capture intricate relationships within medical images. This enhances precision in identifying patterns and anomalies, improving the speed and reliability of pathology image analysis. In this study, I explore the use of Vision Transformers and SWIN Transformers for pathology image analysis and compare their performance with traditional CNN models like EfficientNet.
-
+Analyzing pathology images is essential for accurate disease diagnosis and treatment but is often labor-intensive and inconsistent. Transformer-based models process large datasets and capture intricate relationships within medical images. This enhances precision in identifying patterns and anomalies, improving the speed and reliability of pathology image analysis. This project examines baseline CNN performance, and illustrates how transformer-based models (ViT, SWIN) and interpretability tools (Grad-CAM) can be integrated into a patch-level histopathology classification pipeline.
   # Method
        
        Tranformer Models
