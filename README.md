@@ -9,8 +9,6 @@ Analyzing pathology images is essential for accurate disease diagnosis and treat
   # Tranformer Models
           i. Vision Transformer Model
                1. Architecture
-               <img width="1087" height="518" alt="image" src="https://github.com/user-attachments/assets/de31c7d9-5506-42cf-80ec-4cfb66b6c980" />
-
                2. Training
                3. Evaluations
                4. Gradient-weighted class activation mapping (Grad-CAM)
