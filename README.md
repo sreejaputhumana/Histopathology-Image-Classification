@@ -6,8 +6,10 @@ Analyzing pathology images is essential for accurate disease diagnosis and treat
   # Method
 ### Data and Preprocessing
 
-Image patches were obtained from a public histopathology dataset  PatchCamelyon (PCam) (1)(2) (Source**: https://github.com/basveeling/pcam )and resized to a
-fixed input resolution prior to training. Standard normalization was applied, and
+Image patches were obtained from a public histopathology dataset  PatchCamelyon (PCam) (1)(2) (Source**: https://github.com/basveeling/pcam )which consists of 96×96 pixel
+histopathology image patches extracted from whole-slide images of lymph node sections.
+Each patch is labeled based on the presence or absence of metastatic tissue in the
+central region of the patch.Standard normalization was applied, and
 data were split into training and validation sets to ensure that evaluation was
 performed on held-out samples.
 
@@ -44,7 +46,7 @@ No test-set labels or external datasets were used for model selection or tuning.
  
 # Results
 
-The models was evaluated on a held-out validation set using accuracy and confusion matrices. The confusion matrix provides insight into class-wise prediction behavior and highlights potential sources of misclassification. Among the evaluated architectures, the Swin Transformer achieved the strongest validation performance for patch-level benign vs malignant classification. Class-wise behavior was assessed using a confusion matrix to verify that performance was not driven by a single class.
+The models were evaluated on a held-out validation set using accuracy and confusion matrices. The confusion matrix provides insight into class-wise prediction behavior and highlights potential sources of misclassification. Among the evaluated architectures, the Swin Transformer achieved the strongest validation performance for patch-level benign vs malignant classification. Class-wise behavior was assessed using a confusion matrix to verify that performance was not driven by a single class.
 
 To improve interpretability, Grad-CAM visualizations were generated for selected
 validation images. The heatmaps highlight spatially localized regions within each
